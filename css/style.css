@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/* Basic Setup */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #FFFFFF;
+    background-color: #B9B9B9;
+    font-size: 14px;
+    font-weight: 400;
+    /* font-family: 'Miama Nueva', sans-serif; */
+    font-family: "Inter", sans-serif;
+}
+
+
+/* Reusable Components */
+
+section {
+    max-width: 85%;
+    margin: auto;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+p {
+    color: #FFFFFF50;
+}
+
+.btn-primary {
+    background-color: #E6533C;
+    padding: 16px 40px;
+    border: 0;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Media Query Section */
+
+@media screen and (max-width:576px) {
+
+}
+
+@media screen and (min-width:577px) and (max-width:768px) {
+
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+
+}
