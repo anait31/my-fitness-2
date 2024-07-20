@@ -492,6 +492,10 @@ option {
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(3, 1fr);
+    background-color: #FFFFFF30;
+    padding: 30px;
+    border-radius: 30px;
+    margin-bottom: 60px;
 }
 
 .item1 {
@@ -499,38 +503,63 @@ option {
     background-repeat: no-repeat;
     height: 250px;
     border-radius: 20px;
+    position: relative;
 }
 .item2 {
     background-image: url(../images/trainer2.png);
     background-repeat: no-repeat;
     height: 250px;
     border-radius: 20px;
+    position: relative;
 }
 .item3 {
     background-image: url(../images/trainer3.png);
+    background-size: cover;
     background-repeat: no-repeat;
     height: 250px;
+    width: 100%;
     border-radius: 20px;
+    position: relative;
 }
 .item4 {
     background-image: url(../images/trainer4.png);
     height: 250px;
     background-repeat: no-repeat;
     border-radius: 20px;
+    position: relative;
 }
 
 .item5 {
     background-image: url(../images/trainer5.png);
     background-repeat: no-repeat;
+    background-size: cover;
     height: 250px;
     border-radius: 20px;
+    position: relative;
 }
 
 .item6 {
     background-image: url(../images/trainer6.png);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
     height: 250px;
     border-radius: 20px;
+    position: relative;
+}
+
+.item1 div,
+.item2 div,
+.item3 div,
+.item4 div,
+.item5 div,
+.item6 div {
+position: absolute;
+left: 0;
+bottom: 0;
+margin-left: 20px;
+margin-bottom: 20px;
 }
 
 footer {
