@@ -488,6 +488,50 @@ option {
     
 }
 
+.team-container {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.item1 {
+    background-image: url(../images/trainer1.png);
+    background-repeat: no-repeat;
+    height: 250px;
+    border-radius: 20px;
+}
+.item2 {
+    background-image: url(../images/trainer2.png);
+    background-repeat: no-repeat;
+    height: 250px;
+    border-radius: 20px;
+}
+.item3 {
+    background-image: url(../images/trainer3.png);
+    background-repeat: no-repeat;
+    height: 250px;
+    border-radius: 20px;
+}
+.item4 {
+    background-image: url(../images/trainer4.png);
+    height: 250px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.item5 {
+    background-image: url(../images/trainer5.png);
+    background-repeat: no-repeat;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.item6 {
+    background-image: url(../images/trainer6.png);
+    background-repeat: no-repeat;
+    height: 250px;
+    border-radius: 20px;
+}
 /* Media Query Section */
 
 @media screen and (max-width:576px) {
