@@ -433,28 +433,31 @@ table {
     margin-top: 30px;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid #FFFFFF10;
     border-collapse: collapse;
     padding: 20px;
     text-align: start;
     color: #FFFFFF50;
     font-size: 16px;
-  }
+}
 
-  table, th {
+table,
+th {
     font-size: 18px;
     color: #FFFFFF;
-  }
+}
 
-  .calculator-chart h3,
-  .calculate-bmi h3 {
+.calculator-chart h3,
+.calculate-bmi h3 {
     font-size: 28px;
-  }
+}
 
-  .calculate-bmi h3 {
+.calculate-bmi h3 {
     margin-bottom: 16px;
-  }
+}
 
 .activity {
     width: 100%;
@@ -463,14 +466,16 @@ table, th, td {
     background-color: #FFFFFF60;
     color: #FFFFFF;
     font-size: 16px;
-  }
-  input {
+}
+
+input {
     width: 49.70%;
     margin-bottom: 16px;
     padding: 16px;
     border-radius: 10px;
     background-color: #FFFFFF60;
-  }
+}
+
 .gender {
     width: 49.70%;
     padding: 16px;
@@ -479,18 +484,23 @@ table, th, td {
     color: #FFFFFF;
     font-size: 16px;
 }
+
 ::placeholder {
     color: #FFFFFF;
 }
+
 option {
     background-color: #FFFFFF60;
-    padding: 16px;
+    overflow: auto;
+    /* padding: 16px; */
 }
 
 .calculate-bmi button {
     margin-top: 30px;
-    
+
 }
+
+
 
 .team-container {
     display: grid;
@@ -509,6 +519,7 @@ option {
     border-radius: 20px;
     position: relative;
 }
+
 .item2 {
     background-image: url(../images/trainer2.png);
     background-repeat: no-repeat;
@@ -516,6 +527,7 @@ option {
     border-radius: 20px;
     position: relative;
 }
+
 .item3 {
     background-image: url(../images/trainer3.png);
     background-size: cover;
@@ -525,6 +537,7 @@ option {
     border-radius: 20px;
     position: relative;
 }
+
 .item4 {
     background-image: url(../images/trainer4.png);
     height: 250px;
@@ -559,11 +572,11 @@ option {
 .item4 div,
 .item5 div,
 .item6 div {
-position: absolute;
-left: 0;
-bottom: 0;
-margin-left: 20px;
-margin-bottom: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 .subscribe {
@@ -585,8 +598,25 @@ margin-bottom: 20px;
     margin-bottom: 20px;
 }
 
+select {
+    position: relative;
+    /* display: none;  */
+}
+
+option {
+    position: absolute;
+    width: 100%;
+    background-color: #00000050;
+    padding: 20px;
+
+}
+
+option:active {
+    background-color: #000;
+}
+
 .subscribe p {
-    
+
     width: 50%;
     margin: 20px auto;
     line-height: 25px;
@@ -598,7 +628,7 @@ select {
 }
 
 .form-submit .email-input {
-    border-radius: 10px 0 0 10px ;
+    border-radius: 10px 0 0 10px;
 }
 
 .form-submit .btn-subscribe {
@@ -616,7 +646,7 @@ select {
 
 footer {
     background-color: #FFFFFF10;
-    
+
 }
 
 footer h2 {
@@ -639,15 +669,17 @@ footer h2 {
 footer h4 {
     font-size: 32px;
 }
+
 footer ul {
     margin-top: 20px;
 }
+
 footer ul li {
     list-style: none;
     margin-bottom: 10px;
 }
 
-footer ul li  a {
+footer ul li a {
     color: #FFFFFF50;
     text-decoration: none;
     font-weight: 400;
@@ -817,15 +849,15 @@ hr {
     .item-3 {
         grid-column: 1 / 7;
         background-repeat: no-repeat;
-        height: auto;
+        background-size: cover;
         height: 100px;
-        width: 100%;
 
     }
 
     .item-4 {
         grid-column: 7 / 13;
         background-repeat: no-repeat;
+        background-size: cover;
         height: auto;
         height: 100px;
 
@@ -844,6 +876,7 @@ hr {
     .section-titles {
         width: 90%;
     }
+
     .section-titles h2 {
         font-size: 32px;
     }
@@ -870,21 +903,26 @@ hr {
         flex-direction: column;
     }
 
-    input, .gender {
+    input,
+    .gender {
         width: 100%;
     }
+
     .gender {
         margin-bottom: 20px;
     }
 
-    .mbi-section-titles  h2 {
+    .mbi-section-titles h2 {
         font-size: 32px;
         margin-bottom: 20px;
     }
 
-    .calculator-chart h3 , th, .calculate-bmi h3 {
+    .calculator-chart h3,
+    th,
+    .calculate-bmi h3 {
         font-size: 16px;
     }
+
     td {
         font-size: 14px;
     }
@@ -893,13 +931,25 @@ hr {
         margin-bottom: 20px;
     }
 
-    table th, td {
+    table th,
+    td {
         padding: 10px;
     }
 
-    option {
-        width: auto;
+    /* select {
+        position: relative;
     }
+
+    option {
+        position: absolute;
+        width: 100%;
+        background-color: DodgerBlue;
+        
+    }
+
+    option:active {
+        background-color: #000;
+    } */
 
     .team-container {
         display: grid;
@@ -911,7 +961,7 @@ hr {
     }
 
     .subscribe p {
-    
+
         width: 90%;
         margin: 20px auto;
         line-height: 25px;
