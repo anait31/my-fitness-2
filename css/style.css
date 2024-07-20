@@ -456,21 +456,36 @@ table, th, td {
     width: 100%;
     padding: 16px;
     border-radius: 10px;
+    background-color: #FFFFFF60;
+    color: #FFFFFF;
+    font-size: 16px;
   }
   input {
     width: 49.70%;
     margin-bottom: 16px;
     padding: 16px;
     border-radius: 10px;
+    background-color: #FFFFFF60;
   }
 .gender {
     width: 49.70%;
     padding: 16px;
     border-radius: 10px;
+    background-color: #FFFFFF60;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+::placeholder {
+    color: #FFFFFF;
+}
+option {
+    background-color: #FFFFFF60;
+    padding: 16px;
 }
 
 .calculate-bmi button {
     margin-top: 30px;
+    
 }
 
 /* Media Query Section */
@@ -648,6 +663,9 @@ table, th, td {
 
     }
 
+    .section-titles {
+        width: 90%;
+    }
     .section-titles h2 {
         font-size: 32px;
     }
@@ -670,6 +688,35 @@ table, th, td {
         width: 90%;
     }
 
+    .bmi-grid-containers {
+        flex-direction: column;
+    }
+
+    input, .gender {
+        width: 100%;
+    }
+    .gender {
+        margin-bottom: 20px;
+    }
+
+    .calculator-chart h3 , th, .calculate-bmi h3 {
+        font-size: 16px;
+    }
+    td {
+        font-size: 14px;
+    }
+
+    table {
+        margin-bottom: 20px;
+    }
+
+    table th, td {
+        padding: 10px;
+    }
+
+    option {
+        width: auto;
+    }
 
 }
 
