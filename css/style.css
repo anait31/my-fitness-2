@@ -405,6 +405,10 @@ img {
 
 
 .section-titles {
+    margin: 60px auto;
+}
+
+.mbi-section-titles {
     width: 60%;
     margin: 60px auto;
 }
@@ -822,6 +826,11 @@ hr {
         width: 100%;
     }
     .gender {
+        margin-bottom: 20px;
+    }
+
+    .mbi-section-titles  h2 {
+        font-size: 32px;
         margin-bottom: 20px;
     }
 
