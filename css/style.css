@@ -231,7 +231,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-.section-body  h4 {
+.section-body h4 {
     font-size: 18px;
 }
 
@@ -239,6 +239,30 @@ h1 {
     width: 70%;
     margin: auto;
     margin-top: 10px;
+}
+
+.run {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.run-title h2 {
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+.run-title p {
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+img {
+    width: 50%;
+    border-radius: 20px;
 }
 
 /* Media Query Section */
@@ -291,7 +315,7 @@ h1 {
         border: 1px solid #303030;
         border-radius: 10px;
     }
-    
+
     .workout-videos {
         position: absolute;
         border: 1px solid #303030;
@@ -302,52 +326,76 @@ h1 {
 
     .model img {
         margin-bottom: 0;
-        margin-right:0;
+        margin-right: 0;
         margin-top: 20px;
     }
 
     .habits {
         margin-bottom: 60px;
     }
-    
+
     .section-title {
         text-align: center;
         margin: 20px;
     }
 
-    .section-title  h2 {
+    .section-title h2 {
         font-size: 32px;
     }
-    
+
     .section-title p {
         margin-top: 15px;
         line-height: 20px;
     }
-    
+
     .section-body {
         display: flex;
         flex-direction: column;
         gap: 20px;
         text-align: center;
     }
-    
+
     .section-body img {
         border-radius: 50%;
         margin-bottom: 20px;
     }
-    
-    .section-body  h4 {
+
+    .section-body h4 {
         font-size: 18px;
     }
-    
+
     .section-body p {
         width: 70%;
         margin: auto;
         margin-top: 10px;
     }
-    
-    
 
+    .run {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .run-title h2 {
+        margin-bottom: 20px;
+        width: 100%;
+        font-size: 32px;
+    }
+
+    .run-title p {
+        margin-bottom: 20px;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+
+    .run .btn-primary {
+        width: 100%;
+    }
 
 }
 
@@ -378,7 +426,7 @@ h1 {
         border: 1px solid #303030;
         border-radius: 10px;
     }
-    
+
     .workout-videos {
         position: absolute;
         border: 1px solid #303030;
@@ -389,10 +437,10 @@ h1 {
 
     .model img {
         margin-bottom: 0;
-        margin-right:0;
+        margin-right: 0;
         margin-top: 20px;
     }
-    
+
 }
 
 @media screen and (min-width:769px) and (max-width:992px) {}
